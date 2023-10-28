@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=55.0">
     <meta name="author" content="melika">
     <meta name="keyword" content="image,sell,freepik,price">
     <meta name="description" content="buying beautiful backgrounds and profiles and posters">
@@ -18,7 +18,8 @@
 
         div {
             font-size: 15px;
-            width:130px;
+            width: 130px;
+            color: aqua;
 
         }
 
@@ -27,7 +28,6 @@
             border-spacing: 20px;
             text-align: center;
 
-            border-radius: 10%;
         }
 
         th {
@@ -50,6 +50,14 @@
         td:hover {
             background-color: #D6EEEE;
         }
+
+        .price {
+            color: palevioletred;
+        }
+
+        #meli {
+            color: palegreen;
+        }
     </style>
 
 
@@ -60,6 +68,7 @@
 </head>
 
 <body>
+    <p title="About W3Schools">W3Schools is a web developer's site.</p>
 
     <h1 style="text-align: center; color: rgb(199, 98, 128);">my wallpapers collection</h1>
     <table>
@@ -70,7 +79,7 @@
         </tr>
         <tr>
             <td style="border-color: black;">
-                <a href="./PICTURES/@wall_rangi (5).jpg" target="_parent"><img src="./PICTURES/@wall_rangi (5).jpg"
+                <a href="./PICTURES/@wall_rangi (5).jpg" target="_parent"><img src="./.PICTURES/@wall_rangi (5).jpg"
                         alt="black" width="60PX"></a>
             </td>
             <td style="border-color: palevioletred;">
@@ -86,24 +95,38 @@
     <div>
         <h2>description:</h2>
         <p> these wallpapers are suitable for android or ios phones</p>
-        
-            <h3>
-                <mark>package price:</mark>
-            </h3>
-        
-        <div>
+        <p class="price">copy with <kbd>cntrl+c<kbd></p>
+        <h3>
+            <mark>package price:</mark>
+        </h3>
+
+        <div style="color: blueviolet;">
             <del>10.99$</del>
-            <p>
+            <p class="price">
                 <strong>9.89$</strong>
+                &copy;
             </p>
         </div>
-        
+
         <strong>contact us:</strong>
-        
         <ul style="list-style-type: square;">
             <li> <span style="color: blue; font-size: 10px;">instagram:</span>@me.mahrami</li>
             <li><span style="color: blue; font-size: 10px;">telegram:</span>@meli_mhr</li>
         </ul>
+
+        <details open>
+            <summary>details</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum laborum praesentium est
+                quisquam soluta nulla excepturi perspiciatis quos reprehenderit.</p>
+        </details>
+        <pre>
+            <code>
+            print(hello word!) <samp>'hello'</samp>
+            end
+            
+            </code>
+        </pre>
+
     </div>
 
 
